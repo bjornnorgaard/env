@@ -1,0 +1,20 @@
+[user]
+	email = you@mail.com
+	name = John Doe
+[alias]
+        l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+        a = add --all
+        d = diff
+        s = status
+        b = branch
+        f = fetch -p
+        bd = branch -d
+        ca = commit -am
+        cm = commit -m
+        rh = reset --hard
+        ph = push origin head
+        pd = pull origin develop
+        pm = pull origin master
+        co = checkout
+        com = checkout master
+        cod = checkout develop
