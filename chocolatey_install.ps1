@@ -1,1 +1,2 @@
-choco install googlechrome firefox git docker-for-windows sourcetree visualstudiocode resharper slack spotify dropbox keepass 7zip foxitreader sharex irfanview doublecmd -y
+
+Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
