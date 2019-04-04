@@ -6,7 +6,7 @@
         a = add --all
         d = diff
         s = status
-        b = branch
+        b = branch -a
         f = fetch -p
         bd = branch -d
         ca = commit -am
