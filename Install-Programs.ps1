@@ -5,7 +5,7 @@ If (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
 }
 
 # General
-choco install keepass GoogleChrome foxitreader doublecmd irfanview Firefox dropbox sharex 7zip vlc agentransack teamviewer -y
+choco install keepass GoogleChrome foxitreader doublecmd irfanview Firefox dropbox sharex 7zip vlc agentransack teamviewer brave -y
 # keepass
 # GoogleChrome
 # agentransack
@@ -14,6 +14,7 @@ choco install keepass GoogleChrome foxitreader doublecmd irfanview Firefox dropb
 # doublecmd
 # irfanview
 # Firefox
+# Brave
 # dropbox
 # sharex
 # 7zip
