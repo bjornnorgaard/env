@@ -1,5 +1,5 @@
 [user]
-	email = you@mail.com
+	email = your@mail.com
 	name = John Doe
 [alias]
         l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
@@ -14,7 +14,7 @@
         rh = reset --hard
         ph = push origin head
         pd = pull origin develop
-        pm = pull origin master
+        pm = pull origin main
         co = checkout
-        com = checkout master
+        com = checkout main
         cod = checkout develop

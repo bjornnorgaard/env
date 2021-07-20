@@ -10,6 +10,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object
 
 # Delete merged branches
 Deletes local branches already merged into current branch.
-`
-git branch --merged | egrep -v "(^\*|master|develop)" | xargs git branch -d
-`
+
+```sh
+git branch --merged | egrep -v "(^\*|main|develop)" | xargs git branch -d
+```
