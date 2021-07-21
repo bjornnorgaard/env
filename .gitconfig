@@ -1,6 +1,6 @@
 [user]
-	email = your@mail.com
-	name = John Doe
+	email = bjornsnorgaard@gmail.com
+	name = Bjørn Nørgaard
 [alias]
         l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
         a = add --all
@@ -9,6 +9,7 @@
         b = branch -a
         f = fetch -p
         bd = branch -d
+	bdd = branch -D
         ca = commit -am
         cm = commit -m
         rh = reset --hard
