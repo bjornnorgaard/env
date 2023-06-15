@@ -14,8 +14,6 @@
         cm = commit -m
         rh = reset --hard
         ph = push origin head
-        pd = pull origin develop
         pm = pull origin main
         co = checkout
         com = checkout main
-        cod = checkout develop
