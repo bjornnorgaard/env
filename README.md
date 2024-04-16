@@ -2,7 +2,7 @@
 Repo containing most common tools and how to set then up.
 
 # Delete merged branches
-Deletes local branches already merged into current branch.
+Deletes branches already merged.
 
 ```sh
 # Local branches only
